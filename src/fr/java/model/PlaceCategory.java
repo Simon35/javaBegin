@@ -1,9 +1,9 @@
 package fr.java.model;
 
-public class Activity {
+public class PlaceCategory {
 	private String name;
 	private String description;
-	public Activity(String name) {
+	public PlaceCategory(String name) {
 		super();
 		this.name = name;
 	}

@@ -1,10 +1,9 @@
 package fr.java.model;
 
 public class Place {
-	private int id;
 	private String name;
 	private String shortDescription;
-	private int phone;
+	private String phone;
 	private String email;
 	private String website;
 	private boolean verified;
@@ -13,12 +12,6 @@ public class Place {
 	public Place(String name) {
 		super();
 		this.name = name;
-	}
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
 	}
 	public String getName() {
 		return name;
@@ -32,10 +25,10 @@ public class Place {
 	public void setShortDescription(String shortDescription) {
 		this.shortDescription = shortDescription;
 	}
-	public int getPhone() {
+	public String getPhone() {
 		return phone;
 	}
-	public void setPhone(int phone) {
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 	public String getEmail() {

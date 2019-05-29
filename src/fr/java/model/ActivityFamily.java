@@ -1,9 +1,9 @@
 package fr.java.model;
 
-public class Activity {
+public class ActivityFamily {
 	private String name;
 	private String description;
-	public Activity(String name) {
+	public ActivityFamily(String name) {
 		super();
 		this.name = name;
 	}
